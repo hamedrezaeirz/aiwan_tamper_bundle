@@ -1,0 +1,3 @@
+nohup: ignoring input
+[     59s] A      pays   [16]   10000 s100 tamper=0.17 crash=0.91 (11.8s)
+[     72s] B_loop pays   [16]   10000 s100 tamper=0.71 crash=0.66 (12.6s)
