@@ -1,0 +1,20 @@
+rows=240 files=4 seeds present=[200, 201, 202, 203, 204, 205, 206, 207, 208, 209, 210, 211, 212, 213, 214, 215, 216, 217, 218, 219]
+PASS  mode == full only (found {'full'})
+PASS  algo == dqn only (found {'dqn'})
+PASS  one regimes file hash ({'f472cdee67c8'})
+PASS  one library-version set: [['2.9.0', '2.14.1+cpu', '1.3.0', '3.10.12']]
+PASS  no duplicate runs (0 rows involved)
+PASS  no NaN outside the A-only CRN columns
+PASS  B_loop rows have the paired-evaluation columns
+PASS  rates within [0,1]
+PASS  design complete: missing 0 of 240 runs
+PASS  no runs outside the stated design: extra 0
+PASS  no seed from experiment 2 (100-119)
+PASS  no pilot/smoke seed (900, 901)
+PASS  A never uses the gate
+PASS  B_loop: untampered episodes identical in real vs counterfactual replay
+PASS  B_loop, regimes where TAMPER is harmless: real == counterfactual exactly
+
+compute time in the CSVs: 26.6 core-hours; longest single run 22.5 min
+
+INTEGRITY OK

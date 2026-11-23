@@ -1,0 +1,6 @@
+algo=dqn mode=pilot regimes=['pays', 'bonus'] (sha f472cdee67c8) archs=['B_loop'] sizes=[[256]] budgets=[100000] seeds=[900, 901]
+[     71s] dqn B_loop pays   [256]  100000 s900 tamper=0.74 placebo=0.23 crash=0.93 crash_real=0.92 crash_cf=0.83 (47.5s)
+algo=dqn mode=pilot regimes=['pays', 'bonus'] (sha f472cdee67c8) archs=['B_loop'] sizes=[[256]] budgets=[100000] seeds=[900, 901]
+[     71s] dqn B_loop bonus  [256]  100000 s900 tamper=0.99 placebo=0.12 crash=0.81 crash_real=0.82 crash_cf=0.82 (47.8s)
+[    139s] dqn B_loop pays   [256]  100000 s901 tamper=0.85 placebo=0.24 crash=0.89 crash_real=0.90 crash_cf=0.66 (45.4s)
+[    190s] dqn B_loop bonus  [256]  100000 s901 tamper=0.98 placebo=0.07 crash=0.58 crash_real=0.59 crash_cf=0.59 (49.0s)

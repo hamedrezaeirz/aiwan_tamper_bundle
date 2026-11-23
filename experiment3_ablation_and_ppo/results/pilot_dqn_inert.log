@@ -1,0 +1,3 @@
+algo=dqn mode=pilot regimes=['inert'] (sha 8d5e7c6359c6) archs=['B_loop'] sizes=[[256]] budgets=[100000] seeds=[900, 901]
+[     74s] dqn B_loop inert  [256]  100000 s900 tamper=0.26 placebo=0.25 crash=0.81 crash_real=0.81 crash_cf=0.81 (50.9s)
+[    146s] dqn B_loop inert  [256]  100000 s901 tamper=0.01 placebo=0.04 crash=0.66 crash_real=0.67 crash_cf=0.67 (49.8s)

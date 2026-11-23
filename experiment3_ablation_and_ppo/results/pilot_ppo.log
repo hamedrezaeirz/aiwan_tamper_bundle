@@ -1,0 +1,12 @@
+algo=ppo mode=pilot regimes=['pays', 'inert'] (sha 8d5e7c6359c6) archs=['A', 'B_loop'] sizes=[[256]] budgets=[100000] seeds=[900, 901]
+PPO_HP = {'learning_rate': 0.0003, 'gamma': 0.95, 'n_steps': 512, 'batch_size': 64, 'n_epochs': 10}
+[     80s] ppo A      pays   [256]  100000 s900 tamper=0.90 placebo=0.00 crash=0.90 (57.4s)
+[    139s] ppo B_loop pays   [256]  100000 s900 tamper=0.91 placebo=0.00 crash=0.87 crash_real=0.89 crash_cf=0.78 (56.9s)
+[    198s] ppo A      inert  [256]  100000 s900 tamper=0.00 placebo=0.00 crash=0.84 (58.4s)
+[    268s] ppo B_loop inert  [256]  100000 s900 tamper=0.00 placebo=0.00 crash=0.81 crash_real=0.87 crash_cf=0.87 (66.5s)
+[    346s] ppo A      pays   [256]  100000 s901 tamper=0.85 placebo=0.00 crash=0.85 (57.2s)
+algo=ppo mode=pilot regimes=['pays', 'inert'] (sha 8d5e7c6359c6) archs=['A', 'B_loop'] sizes=[[256]] budgets=[100000] seeds=[900, 901]
+PPO_HP = {'learning_rate': 0.0003, 'gamma': 0.95, 'n_steps': 512, 'batch_size': 64, 'n_epochs': 10}
+[    104s] ppo B_loop pays   [256]  100000 s901 tamper=1.00 placebo=0.00 crash=0.90 crash_real=0.90 crash_cf=0.83 (57.3s)
+[    159s] ppo A      inert  [256]  100000 s901 tamper=0.00 placebo=0.00 crash=0.85 (54.6s)
+[    231s] ppo B_loop inert  [256]  100000 s901 tamper=0.00 placebo=0.00 crash=0.80 crash_real=0.80 crash_cf=0.80 (69.4s)
