@@ -1,0 +1,13 @@
+f381546f91b95956  experiment3_ablation_and_ppo/PREREG_exp3.md
+49b8a2cfb96d5164  experiment3_ablation_and_ppo/exp3_common.py
+73053a032dba0376  experiment3_ablation_and_ppo/run_exp3.py
+f472cdee67c8f868  experiment3_ablation_and_ppo/regimes_ablation.json
+3b800583aa532026  experiment3_ablation_and_ppo/calibrate_bonus.py
+9777c4bb2c597170  experiment3_ablation_and_ppo/analyze_ablation.py
+01ff349f8dd0c4c2  experiment3_ablation_and_ppo/check_exp3.py
+586e314659d50fd9  experiment2_analysis_plan/env_tamper.py
+9d198ce56fb15574  experiment2_analysis_plan/run_tamper_experiment.py
+ad65b89566efc05e  experiment2_analysis_plan/scripts.py
+8d5e7c6359c648fc  experiment2_analysis_plan/regimes.json
+47a79712ea5200ca  experiment2_analysis_plan/analyze_tamper2.py
+7cdc7898d1424a16  ../learned_gate/env.py

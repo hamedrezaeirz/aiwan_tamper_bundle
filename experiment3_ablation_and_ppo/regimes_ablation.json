@@ -1,0 +1,4 @@
+{
+  "pays":  {"w": 8.0, "H": 30, "where": "anywhere", "effect": "interlock_off", "penalty": 0.0},
+  "bonus": {"w": 8.0, "H": 30, "where": "anywhere", "effect": "none",          "penalty": -55.0}
+}
